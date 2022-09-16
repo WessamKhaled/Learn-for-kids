@@ -1,0 +1,802 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* start header */
+
+header{
+    background-image:  linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(/image/background.webp);
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    
+}
+
+/* start section 1 */
+.head .wezo{
+    display: flex;
+}
+
+/* start header 1 */
+.head{
+    padding: 0px 60px;
+}
+
+.head .header1{
+    padding: 15px 0px;
+}
+
+.head .header1 a,i{
+    display:inline;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-size: 12px;
+    color:white;
+}
+/* end header 1 */
+
+/* start header 2 */
+.head{
+    padding: 0px 60px;
+}
+
+.head .wezo {
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+.head .nav {
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.head .header2 a,i{
+    display:inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-size: 12px;
+    color:white;
+}
+
+
+/* end header 2 */
+
+
+/* start navbar */
+
+.head .nav{
+    display: flex;
+}
+
+.head .Nurture{
+    color:white;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.head .navbar{
+    
+    padding: 15px 0px 15px 150px;
+}
+
+.head .navbar ul{
+    list-style: none;
+}
+
+.head .navbar ul li{
+    display: inline-block;
+}
+.head .navbar ul .Nurture{
+    float: left;
+    padding: 10px 10px 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+}
+
+.head .navbar ul li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 13px;
+    color:white;
+
+}
+.head .navbar ul i{
+    display:inline;
+    padding: 10px 5px;
+    font-size: 15px;
+    color:white;
+}
+
+.head .navbar ul li a:hover{
+    color: rgb(13, 133, 202); 
+}
+.head input{
+    border-radius: 40px;
+    padding: 15px 25px;
+    margin: 10px 0px 10px 150px;
+    border: none;
+    font-size: 12px;
+    color:white;
+    background-color: mediumaquamarine;
+}
+
+/* end navbar */
+
+/* start foot */
+
+.foot {
+    color: white;
+    margin: 40px 0px;
+    
+    
+}
+.foot h1{
+    font-size: 50px;
+    width: 500px;
+}
+.foot p{
+    
+    margin: 30px 0px;
+    font-size: 20px;
+    width: 450px;
+}
+.head .foot p .Colorlib{
+    border-bottom: 2px mediumaquamarine solid;
+}
+
+
+.foot input{
+    border-radius: 40px;
+    margin: 30px 0px;
+    padding: 15px 25px;
+    border: none;
+    font-size: 12px;
+    color:white;
+    background-color: mediumaquamarine;
+}
+/* end foot */
+
+/* end header */
+
+
+
+
+/* start main */
+
+
+/* start divs */
+
+.divs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 200px;
+    position: relative;
+    top: -70px;
+}
+
+.divs .learn{
+    color: white;
+    background-color: limegreen;
+    padding: 20px;
+    height: auto;
+    width: 400px;
+}
+.divs .play{
+    color: white;
+    background-color: tomato;
+    margin:40px 30px;
+    padding: 20px;
+    height: auto;
+    width: 400px;
+}
+.divs .meal{
+    color: white;
+    background-color: rgb(50, 169, 205);
+    padding: 20px 20px 0px 20px;
+    padding: 20px;
+    height: auto;
+    width: 400px;
+    
+}
+.divs h3{
+    font-size: 25px;
+}
+
+.divs p{
+    font-size: 18px;
+}
+/* end divs */
+
+
+/* start section hannen */
+.haneen h1 span{
+    border-bottom: 2px tomato solid;
+}
+
+.haneen h1{
+    color: rgb(47, 182, 137);
+    font-size: 25px;
+    text-align: center;
+    margin: 25px;
+}
+
+
+.haneen pre{
+    
+    font-size: 15px;
+    text-align: center;
+    margin: 25px;
+}
+
+/* end section hannen */
+
+/* start section offer */
+
+.offer .offer1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 80px;
+    
+}
+
+
+.offer .offer1 div{
+    margin: 10px 10px;
+    
+}
+
+.offer .offer1 h3{
+    font-size: 15px;
+}
+.offer .offer1 p{
+    font-size: 12px;
+    word-spacing: 3px;
+    margin: 10px 0px;
+}
+
+
+.offer .offer2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 80px;
+}
+
+.offer .offer2 div{
+    margin: 10px 10px;
+    
+}
+.offer .offer2 h3{
+    font-size: 15px;
+}
+.offer .offer2 p{
+    font-size: 12px;
+    word-spacing: 3px;
+    margin: 10px 0px;
+
+}
+
+/* end section offer */
+
+
+/* start section education */
+
+.education{
+background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(/image/xhero_bg_2.jpg.pagespeed.ic.rynxbqiJef.webp);
+background-position: center;
+background-size: cover;
+height: 750px;
+text-align: center;
+margin: 80px 0px;
+}
+.education div{
+    padding: 300px 350px;
+   
+}
+
+.education h2{
+    color: white;
+    font-size: 30px;
+
+}
+
+.education p{
+    color: white;
+    font-size: 20px;
+
+}
+.education input{
+    border-radius: 40px;
+    margin: 30px 0px;
+    padding: 15px 25px;
+    border: none;
+    font-size: 12px;
+    color:white;
+    background-color: mediumaquamarine;
+
+}
+
+/* end section education */
+
+
+/* start section about us */
+
+.AboutUs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+   
+}
+.AboutUs .div1{
+    width: 500px;
+    margin: 70px;
+}
+
+.AboutUs .div1 h1{
+    color: rgb(52, 182, 139);
+    font-size: 30px;
+    
+    
+}
+.AboutUs .div1 h1 span{
+border-bottom: tomato 2px solid;
+}
+.AboutUs .div1 p{
+    margin: 15px 0px;
+    font-size: 15px;
+    display: flex;
+    
+}
+.AboutUs .div1 p i {
+    width: 30px;
+    color: rgb(52, 182, 139);
+}
+.AboutUs .div1 h2 {
+    color:rgb(52, 182, 139) ;
+    padding-right: 30px;
+}
+.AboutUs .div1 .numbers{
+    display: flex;
+    
+}
+.AboutUs .div1 .numbers p {
+    display: flex;
+    padding-right: 30px;
+}
+
+.AboutUs .button1{
+    border-radius: 40px;
+    padding: 15px 35px;
+    margin: 30px 0px;
+    border: none;
+    font-size: 12px;
+    color:white;
+    background-color: mediumaquamarine;
+}
+
+.AboutUs .button2{
+    border-radius: 40px;
+    padding: 15px 35px;
+    margin: 30px 5px;
+    border: mediumaquamarine solid 1px;
+    font-size: 12px;
+    color:mediumaquamarine;
+    background-color: white;
+}
+
+.AboutUs .image {
+    margin-right: 120px;
+    box-shadow: 150px -40px  rgba(102, 205, 171, 0.452);
+}
+
+/* end section about us */
+
+
+/* start section school */
+
+.school {
+    
+    margin: 30px;
+
+}
+.school .news{
+    margin-bottom: 90px;
+}
+.school .news h2{
+    color:mediumaquamarine ;
+    font-size: 30px;
+    margin: 20px;
+    display: flex;
+    justify-content:center;
+
+}
+.school .news h2 span{
+    border-bottom: solid tomato 2px;
+}
+
+.school .news pre{
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+
+}
+
+.school .twodivs {
+    display: flex;
+    justify-content: space-evenly;
+}
+.school .twodivs .div1 .bord div{
+    display: flex;
+}
+.school .twodivs .div2 .bord div{
+    display: flex;
+}
+
+.school div .div1{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px 10px 15px gray;
+}
+.school div .div1 img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.school div .div1 h2{
+    color: mediumaquamarine;
+    font-size: 20px;
+}
+.school div .div1 p{
+    font-size: 15px;
+}
+
+.school .twodivs .div1 .icons{
+    color: rgba(128, 128, 128, 0.5);
+    
+}
+.school div .div1 .icons i{
+    color: rgba(128, 128, 128, 0.5);
+}
+
+.school .twodivs .bord{
+    margin: 10px 30px;
+}
+
+
+.school div .div2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    box-shadow: 10px 10px 15px gray;
+}
+.school div .div2 img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.school div .div2 h2{
+    color: mediumaquamarine;
+    font-size: 20px;
+
+}
+.school div .div2 p{
+    font-size: 15px;
+    
+}
+
+.school div .div2 .icons{
+    color: rgba(128, 128, 128, 0.5);
+}
+.school div .div2 .icons i{
+    color: rgba(128, 128, 128, 0.5);
+}
+
+
+/* end section school */
+
+
+/* start section picts */
+
+.picts{
+    margin-top: 100px;
+
+}
+
+.picts .pricing{
+    margin-bottom: 90px;
+}
+.picts .pricing h2{
+    color:mediumaquamarine ;
+    font-size: 30px;
+    margin: 20px;
+    display: flex;
+    justify-content:center;
+
+}
+.picts .pricing h2 span{
+    border-bottom: solid tomato 2px;
+}
+
+.picts .pricing pre{
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+
+}
+.picts .picts1{
+    display: flex;
+    justify-content:center;
+    
+}
+
+.picts .picts1 div{
+    width: 300px;
+    margin:30px ;
+}
+.picts .picts1 img{
+    height: 60px;
+    width: 60px;
+    background-color: rgba(102, 205, 171, 0.356);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.picts .picts1 h2{
+    font-size: 25px;
+    margin: 20px 0px;
+    margin-left: 100px;
+}
+
+.picts .picts1 p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+.picts .picts1 pre{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.picts .picts1 pre span{
+    font-size: 25px;
+}
+.picts .picts1 input{
+    border-radius: 40px;
+    margin: 30px 0px;
+    margin-left: 80px;
+    padding: 15px 25px;
+    border: mediumaquamarine solid 1px;
+    font-size: 12px;
+    color:mediumaquamarine;
+    background-color: white;
+
+}
+.picts .picts1 .different input{
+    border-radius: 40px;
+    margin: 30px 0px;
+    margin-left: 80px;
+    padding: 15px 25px;
+    border: none;
+    font-size: 12px;
+    color:white;
+    background-color: mediumaquamarine;
+
+}
+
+
+/* end section picts */
+
+
+/* start section why */
+.why{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.why .testimonials{
+    width: 50%;
+    margin: 80px;
+
+}
+.why .testimonials h2{
+    color: mediumaquamarine;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.why .testimonials h2 span{
+    border-bottom: solid 2px tomato;
+}
+.why .testimonials p{
+    font-size: 20px;
+    word-spacing: 5px;
+    margin-top: 25px;
+    
+}
+.why .testimonials img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+.why .testimonials h3{
+    color: mediumaquamarine;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.why .choose{
+    width: 50%;
+    margin: 80px;
+}
+
+
+.why .choose h2{
+    color: mediumaquamarine;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.why .choose h2 span{
+    border-bottom: solid 2px tomato;
+}
+.why .choose  p{
+    display: block;
+    font-size: 20px;
+    word-spacing: 5px;
+    margin-top: 20px;  
+
+}
+
+.why .choose .ground{
+    background-color: mediumaquamarine;
+
+}
+
+.why .choose .ground p{
+    color: white;
+    margin: 30px;
+    padding: 15px;
+}
+.why .choose .image{
+    display: flex;
+    
+}
+.why .choose .image p{
+    display: block;
+}
+.why .choose img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.why .choose .end p{
+    font-size: 13px;
+}
+
+/* end section why */
+
+/* end main */
+
+
+
+/* start footer */
+footer{
+    background-color:rgba(53, 172, 132, 0.767);
+
+}
+footer .footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer .aboutNurture {
+    color: white;
+    margin: 80px;
+    width: 300px;
+    margin-right: 0px;
+}
+footer .footer .aboutNurture h3{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+footer .footer .aboutNurture p{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+footer .footer .aboutNurture h4{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+footer .footer .aboutNurture div a i {
+    background-color: white;
+    color: black;
+    margin-right: 2px;
+    border-radius: 100px;
+}
+
+footer .footer .projects{
+    color: white;
+    margin: 80px;
+    width: 350px;
+    margin-right: 0px;
+}
+
+
+footer .footer .projects h3{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+footer .footer .projects p{
+    font-size: 15px;
+    color: rgba(119, 118, 118, 0.795);
+    margin-bottom: 25px;
+}
+footer .footer .gallery {
+    margin: 80px;
+    margin-left: 0px;
+    width: 200px;
+}
+
+footer .footer .gallery h3{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+footer .footer .gallery img{
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+footer .footer .contact{
+    color: white;
+    margin: 80px 0px;
+    
+}
+footer .footer .contact h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+footer .footer .contact h4{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+footer .footer .contact p{
+    font-size: 15px;
+    color: rgba(119, 118, 118, 0.795);
+    margin-bottom: 25px;
+}
+
+footer .Copyright{
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+footer .Copyright i {
+    color: red;
+    font-size: 15px;
+}
+
+/* end footer */
